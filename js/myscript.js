@@ -16,6 +16,6 @@ function AskData(){
         TicketPrice = KmNumber * 0.21
     }
     TicketPrice = TicketPrice.toFixed(2);
-    document.getElementById("suggpass").innerText ="Il costo del tuo biglietto per percorrere "+ KmNumber +" è di "+ TicketPrice;
+    document.getElementById("suggpass").innerText ="Il costo del tuo biglietto per percorrere "+ KmNumber +" è di "+ TicketPrice + "€";
 
 }
